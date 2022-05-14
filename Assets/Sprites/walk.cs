@@ -79,8 +79,8 @@ public class walk : MonoBehaviour
 
 
         if(Input.GetButtonDown("Jump")){
-
-            body.AddForce(new Vector2(0f,4),ForceMode2D.Impulse);
+            
+            body.AddForce(new Vector2(0f,6),ForceMode2D.Impulse);
 
         }
 
